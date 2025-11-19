@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: aastha002/lab5
+          images: aastha002/lab6
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v4
